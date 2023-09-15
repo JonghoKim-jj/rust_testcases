@@ -1,0 +1,6 @@
+[package]
+name = "testcase104_vector"
+version = "0.1.0"
+authors = ["Jongho Kim <scurry2119@gmail.com>"]
+
+[dependencies]
