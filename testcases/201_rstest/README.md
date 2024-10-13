@@ -27,3 +27,13 @@ mod test {
     // ...
 }
 ```
+
+You can test with:
+```sh
+cargo t
+```
+
+You can test `mult` module only:
+```sh
+cargo t mult
+```
