@@ -1,0 +1,10 @@
+[package]
+name = "testcase201_rstest"
+version = "0.1.0"
+authors = ["Jongho Kim <scurry2119@gmail.com>"]
+
+# The minimum Rust version for rstest is 1.67.1
+rust-version = "1.77"
+
+[dev-dependencies]
+rstest = "0.23.0"
