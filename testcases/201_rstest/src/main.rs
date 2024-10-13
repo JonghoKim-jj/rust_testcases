@@ -44,7 +44,7 @@ mod tests {
     #[should_panic]
     #[case::panic(1, 2, 4)]
     #[should_panic]
-    #[case(2,3,6)]
+    #[case(2, 3, 6)]
     fn test_plus_operation_with_rstest(#[case] a: u32, #[case] b: u32, #[case] c: u32) {
         assert_eq!(a + b, c)
     }
