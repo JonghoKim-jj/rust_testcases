@@ -40,7 +40,7 @@ mod tests {
     // Tests using *rstest* crate.
     #[rstest]
     #[case(1, 2, 3)]
-    #[case(2, 3, 5)]
+    #[case::any_description_for_your_test_case(2, 3, 5)]
     #[case::no_panic(3, 4, 7)]
     #[should_panic]
     #[case::panic(1, 2, 4)]
