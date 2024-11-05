@@ -1,0 +1,4 @@
+**/*.lock
+LICENSE
+README.md
+target
