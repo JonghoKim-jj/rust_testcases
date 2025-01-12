@@ -12,7 +12,7 @@ PyO3 supports:
 python -m venv .venv
 source .venv/bin/activate
 pip install maturin
-maturin init
+maturin init --bindings pyo3
 ```
 
 # Build
