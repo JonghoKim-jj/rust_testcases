@@ -17,3 +17,10 @@ maturin init --bindings pyo3
 
 # Build
 Run `maturin develop`
+
+# Deploy
+`maturin publish`
+Or
+
+`cargo build --release`
+and rename `libmy_python_module.dylib` to `my_python_module.so`.
