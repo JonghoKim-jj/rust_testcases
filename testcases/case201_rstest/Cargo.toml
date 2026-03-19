@@ -2,6 +2,7 @@
 name = "testcase201_rstest"
 version = "0.1.0"
 authors = ["Jongho Kim <scurry2119@gmail.com>"]
+edition = "2024"
 
 # The minimum Rust version for rstest is 1.67.1
 rust-version = "1.94"
