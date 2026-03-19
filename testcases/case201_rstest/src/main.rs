@@ -1,5 +1,9 @@
+extern crate anyhow;
+
 #[cfg(test)]
 extern crate rstest;
+
+mod sample_rstest;
 
 fn main() {
     // do nothing
